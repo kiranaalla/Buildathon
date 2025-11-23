@@ -82,6 +82,7 @@ Supports:
 ---
 
 ## 📁 Project Structure
+```
 ai-marketing-assistant/
 │
 ├── frontend/
@@ -97,7 +98,7 @@ ai-marketing-assistant/
 │
 ├── README.md
 └── package.json'
----
+```
 ## Contact
 For queries or collaboration:
 mahitheshujarla@gmail.com
