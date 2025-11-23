@@ -1,73 +1,107 @@
-# React + TypeScript + Vite
+# AI Marketing Assistant Platform
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An AI-powered marketing automation platform that helps small businesses, local shops, brands, influencers, and political campaigns create, design, and publish marketing content effortlessly.
 
-Currently, two official plugins are available:
+## 🚀 Overview
+The platform uses GPT, DALL·E, Whisper, and n8n automations to generate captions, posters, slogans, FAQs, and scheduled posts. It supports KYB/KYC verification, influencer collaboration, social media publishing, and analytics. This project aims to democratize digital marketing for low-budget users.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🧠 AI Content Generation
+- Captions  
+- Ads  
+- Product descriptions  
+- Slogans  
+- FAQs  
 
-## Expanding the ESLint configuration
+### 🎨 AI Image Generation
+- Posters  
+- Banners  
+- Promotional creatives  
+- Campaign visuals  
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+### 🎤 Voice Input
+- Convert Hindi/English voice commands into marketing prompts.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+### ⚙️ Automated Workflows (n8n)
+- Content generation  
+- Scheduling & auto-posting  
+- Influencer notifications  
+- Error handling  
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
+### 📢 Social Media Publishing
+Supports:
+- Facebook  
+- Instagram  
+- LinkedIn  
+- X (Twitter)  
+- Buffer integration  
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### ✔️ KYB/KYC Verification
+- GSTIN / Udyam / PAN validation  
+- Prevents misuse and ensures trusted onboarding  
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+### 🤝 Influencer Collaboration
+- Send content to influencers  
+- Track engagement & shares  
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+### 📊 Analytics & Sentiment Analysis
+- Engagement insights  
+- AI-based sentiment summaries  
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+
+## 🏗️ Tech Stack
+
+### Frontend
+- React  
+- Tailwind CSS  
+
+### Backend
+- Node.js
+
+### Database & Hosting
+- Firebase (Auth, Firestore, Storage, Hosting)
+
+### AI APIs
+- OpenAI GPT  
+- DALL·E 3  
+- Whisper  
+
+### Automation
+- n8n Workflow Automation  
+
+### Integrations
+- Buffer API  
+- Facebook/Instagram Graph API  
+- LinkedIn API  
+- X API  
+
+---
+
+## 📁 Project Structure
+ai-marketing-assistant/
+│
+├── frontend/
+│ ├── src/
+│ └── public/
+│
+├── backend/
+│ ├── routes/
+│ ├── controllers/
+│ └── utils/
+│
+├── workflows/
+│
+├── README.md
+└── package.json'
+---
+## Contact
+For queries or collaboration:
+mahitheshujarla@gmail.com
+faizuemperor@gmail.com
+shreeshanthgoud@gmail.com
+
+
